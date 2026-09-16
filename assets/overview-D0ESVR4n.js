@@ -1,0 +1,412 @@
+const n=`<main id="main">
+<section class="intro dark">
+<svg class="art intro-art" viewBox="0 0 600 600" fill="none" aria-hidden="true">
+<g transform="rotate(-23.44 300 300)" stroke="currentColor" stroke-opacity=".22" stroke-width="1">
+<circle cx="300" cy="300" r="290" class="draw" pathLength="1">
+</circle>
+<ellipse cx="300" cy="300" rx="160" ry="290" class="draw" pathLength="1">
+</ellipse>
+<ellipse cx="300" cy="300" rx="236" ry="290" class="draw" pathLength="1">
+</ellipse>
+<ellipse cx="300" cy="300" rx="290" ry="74" class="draw" pathLength="1">
+</ellipse>
+<ellipse cx="300" cy="300" rx="72" ry="290" stroke="#D2AE66" stroke-opacity=".7" class="draw" pathLength="1">
+</ellipse>
+</g>
+</svg>
+<div class="wrap">
+<nav class="crumb" aria-label="Breadcrumb">
+<a href="/">Home</a>
+<i>
+</i>
+<span>Discover TerraNexus</span>
+</nav>
+<div class="intro-grid">
+<div>
+<p class="eyebrow rise">Discover TerraNexus</p>
+<h1 class="h1 rise" style="--d:1">Agriculture has the potential.<br>
+<em>Connection unlocks it.</em>
+</h1>
+<p class="lead rise" style="--d:2">Farmers, cooperatives, service providers and institutions already bring enormous capability. TerraNexus is being developed to help that capability work together.</p>
+</div>
+<aside class="intro-aside rise" style="--d:3">
+<strong>Terra + Nexus</strong>
+<p>Earth, land and soil. Connection, link and bond. A name for the relationship between agricultural potential and the systems that support it.</p>
+</aside>
+</div>
+</div>
+</section>
+<div class="bg-paper">
+<div class="wrap">
+<svg class="fdiv rv" viewBox="0 0 1200 120" preserveAspectRatio="none" aria-hidden="true">
+<path pathLength="1" d="M456 0L-600 120">
+</path>
+<path pathLength="1" d="M462 0L-552 120">
+</path>
+<path pathLength="1" d="M468 0L-504 120">
+</path>
+<path pathLength="1" d="M473 0L-456 120">
+</path>
+<path pathLength="1" d="M479 0L-408 120">
+</path>
+<path pathLength="1" d="M485 0L-360 120">
+</path>
+<path pathLength="1" d="M491 0L-312 120">
+</path>
+<path pathLength="1" d="M496 0L-264 120">
+</path>
+<path pathLength="1" d="M502 0L-216 120">
+</path>
+<path pathLength="1" d="M508 0L-168 120">
+</path>
+<path pathLength="1" d="M514 0L-120 120">
+</path>
+<path pathLength="1" d="M519 0L-72 120">
+</path>
+<path pathLength="1" d="M525 0L-24 120">
+</path>
+<path pathLength="1" d="M531 0L24 120">
+</path>
+<path pathLength="1" d="M537 0L72 120">
+</path>
+<path pathLength="1" d="M542 0L120 120">
+</path>
+<path pathLength="1" d="M548 0L168 120">
+</path>
+<path pathLength="1" d="M554 0L216 120">
+</path>
+<path pathLength="1" d="M560 0L264 120">
+</path>
+<path pathLength="1" d="M565 0L312 120">
+</path>
+<path pathLength="1" d="M571 0L360 120">
+</path>
+<path pathLength="1" d="M577 0L408 120">
+</path>
+<path pathLength="1" d="M583 0L456 120">
+</path>
+<path pathLength="1" d="M588 0L504 120">
+</path>
+<path pathLength="1" d="M594 0L552 120">
+</path>
+<path pathLength="1" d="M600 0L600 120">
+</path>
+<path pathLength="1" d="M606 0L648 120">
+</path>
+<path pathLength="1" d="M612 0L696 120">
+</path>
+<path pathLength="1" d="M617 0L744 120">
+</path>
+<path pathLength="1" d="M623 0L792 120">
+</path>
+<path pathLength="1" d="M629 0L840 120">
+</path>
+<path pathLength="1" d="M635 0L888 120">
+</path>
+<path pathLength="1" d="M640 0L936 120">
+</path>
+<path pathLength="1" d="M646 0L984 120">
+</path>
+<path pathLength="1" d="M652 0L1032 120">
+</path>
+<path pathLength="1" d="M658 0L1080 120">
+</path>
+<path pathLength="1" d="M663 0L1128 120">
+</path>
+<path pathLength="1" d="M669 0L1176 120">
+</path>
+<path pathLength="1" d="M675 0L1224 120">
+</path>
+<path pathLength="1" d="M681 0L1272 120">
+</path>
+<path pathLength="1" d="M686 0L1320 120">
+</path>
+<path pathLength="1" d="M692 0L1368 120">
+</path>
+<path pathLength="1" d="M698 0L1416 120">
+</path>
+<path pathLength="1" d="M704 0L1464 120">
+</path>
+<path pathLength="1" d="M709 0L1512 120">
+</path>
+<path pathLength="1" d="M715 0L1560 120">
+</path>
+<path pathLength="1" d="M721 0L1608 120">
+</path>
+<path pathLength="1" d="M727 0L1656 120">
+</path>
+<path pathLength="1" d="M732 0L1704 120">
+</path>
+<path pathLength="1" d="M738 0L1752 120">
+</path>
+<path pathLength="1" d="M744 0L1800 120">
+</path>
+<path pathLength="1" d="M750 0L1848 120">
+</path>
+<path pathLength="1" d="M756 0L1896 120">
+</path>
+</svg>
+</div>
+</div>
+<section class="s bg-paper ">
+<div class="wrap">
+<div class="sh rv">
+<p class="eyebrow">The challenge</p>
+<h2 class="h2">Productive effort needs a connected system.</h2>
+</div>
+<div class="ix c3">
+<article class="ix-i rv" style="--d:0">
+<div class="ix-top">
+<span class="ix-n">01</span>
+<img class="ix-ic" src="/assets/icon-cooperative.svg" alt="" width="40" height="40">
+</div>
+<h3 class="h3s">Services sit apart</h3>
+<p>Inputs, advice, training and technology often arrive through separate relationships. Farmers carry the burden of connecting them.</p>
+</article>
+<article class="ix-i rv" style="--d:1">
+<div class="ix-top">
+<span class="ix-n">02</span>
+<img class="ix-ic" src="/assets/icon-market.svg" alt="" width="40" height="40">
+</div>
+<h3 class="h3s">Markets feel distant</h3>
+<p>Production needs reliable demand, consistent quality, aggregation and logistics to become a viable commercial opportunity.</p>
+</article>
+<article class="ix-i rv" style="--d:2">
+<div class="ix-top">
+<span class="ix-n">03</span>
+<img class="ix-ic" src="/assets/icon-traceability.svg" alt="" width="40" height="40">
+</div>
+<h3 class="h3s">Value is hard to follow</h3>
+<p>Funders need evidence of delivery. Providers need dependable settlement. Farmers need visibility into the support and payments intended for them.</p>
+</article>
+</div>
+</div>
+</section>
+<section class="s bg-navy dark ">
+<div class="wrap">
+<div class="sh sh-split rv">
+<div>
+<p class="eyebrow">The TerraNexus approach</p>
+<h2 class="h2">Bring the ecosystem around the farmer.</h2>
+</div>
+<div class="side">
+<p>A cooperative-led structure connects participation, delivery and financial accountability.</p>
+</div>
+</div>
+<div class="eco">
+<div class="eco-fig rv">
+<svg viewBox="0 0 560 560" fill="none" aria-hidden="true">
+<g class="pt" data-p="net">
+<g class="spin">
+<circle cx="280" cy="280" r="250" stroke="#F6F1E7" stroke-opacity=".22" stroke-dasharray="2 7">
+</circle>
+<circle cx="514.9" cy="365.5" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+<circle cx="323.4" cy="526.2" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+<circle cx="33.8" cy="323.4" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+<circle cx="45.1" cy="194.5" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+<circle cx="236.6" cy="33.8" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+<circle cx="526.2" cy="236.6" r="1.8" fill="#F6F1E7" fill-opacity=".5">
+</circle>
+</g>
+<circle cx="103.2" cy="103.2" r="5" fill="#D2AE66">
+</circle>
+<circle cx="103.2" cy="103.2" r="12" stroke="#D2AE66" stroke-opacity=".4">
+</circle>
+<text x="103.2" y="85.2" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" letter-spacing="1.3" fill="#F6F1E7" fill-opacity=".8">WAF &amp; COUNTRY COUNCILS</text>
+<circle cx="456.8" cy="103.2" r="5" fill="#D2AE66">
+</circle>
+<circle cx="456.8" cy="103.2" r="12" stroke="#D2AE66" stroke-opacity=".4">
+</circle>
+<text x="456.8" y="85.2" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" letter-spacing="1.3" fill="#F6F1E7" fill-opacity=".8">THE DREAM</text>
+<circle cx="456.8" cy="456.8" r="5" fill="#D2AE66">
+</circle>
+<circle cx="456.8" cy="456.8" r="12" stroke="#D2AE66" stroke-opacity=".4">
+</circle>
+<text x="456.8" y="486.8" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" letter-spacing="1.3" fill="#F6F1E7" fill-opacity=".8">PROVIDERS &amp; BUYERS</text>
+<circle cx="103.2" cy="456.8" r="5" fill="#D2AE66">
+</circle>
+<circle cx="103.2" cy="456.8" r="12" stroke="#D2AE66" stroke-opacity=".4">
+</circle>
+<text x="103.2" y="486.8" text-anchor="middle" font-family="Geist Mono, monospace" font-size="11" letter-spacing="1.3" fill="#F6F1E7" fill-opacity=".8">FIELD DELIVERY PARTNERS</text>
+</g>
+<g class="pt" data-p="ad">
+<circle cx="280" cy="280" r="196" stroke="#D2AE66" stroke-width="1.4">
+</circle>
+<path id="adarc" d="M100 280A180 180 0 0 0 460 280">
+</path>
+<text font-family="Geist Mono, monospace" font-size="10" letter-spacing="1.8" fill="#D2AE66" dy="4">
+<textPath href="#adarc" startOffset="50%" text-anchor="middle">AGRI-DOLLAR · FUNDING WITH A DEFINED PURPOSE</textPath>
+</text>
+</g>
+<g transform="rotate(-23.44 280 280)">
+<path class="pt" data-p="fp" d="M274 130A150 150 0 0 0 274 430Z" fill="#F6F1E7" fill-opacity=".07" stroke="#F6F1E7" stroke-opacity=".4">
+</path>
+<path class="pt" data-p="fg" d="M286 130A150 150 0 0 1 286 430Z" fill="#F6F1E7" fill-opacity=".07" stroke="#F6F1E7" stroke-opacity=".4">
+</path>
+</g>
+<g class="pt" data-p="fp">
+<text x="200" y="356" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="24" fill="#F6F1E7">FarmerPlus</text>
+<text x="200" y="376" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9.5" letter-spacing="1.4" fill="#F6F1E7" fill-opacity=".7">FARMER SUPPORT</text>
+</g>
+<g class="pt" data-p="fg">
+<text x="374" y="190" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="24" fill="#F6F1E7">FORUS-Grow</text>
+<text x="374" y="210" text-anchor="middle" font-family="Geist Mono, monospace" font-size="9.5" letter-spacing="1.4" fill="#F6F1E7" fill-opacity=".7">OPERATING LAYER</text>
+<image href="/assets/logos/forus-icon-white.png" x="357" y="222" width="34" height="34" opacity=".92">
+</image>
+</g>
+<g class="pt" data-p="core">
+<circle cx="280" cy="280" r="66" fill="#D2AE66">
+</circle>
+<text x="280" y="276" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="17" fill="#0A1830">The farmer</text>
+<text x="280" y="296" text-anchor="middle" font-family="Newsreader, Georgia, serif" font-size="14" font-style="italic" fill="#0A1830">&amp; their cooperative</text>
+</g>
+</svg>
+</div>
+<div class="eco-legend rv" style="--d:2">
+<div data-part="core" tabindex="0">
+<small>THE SHARED PURPOSE</small>
+<h3>The farmer &amp; their cooperative</h3>
+<p>Local ownership. Practical participation. Better-connected opportunities.</p>
+</div>
+<a href="/farmerplus.html" data-part="fp">
+<small>FARMER SUPPORT &amp; AGRICULTURAL OPERATIONS</small>
+<h3>FarmerPlus <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M3 11 11 3M4.5 3H11v6.5">
+</path>
+</svg>
+</h3>
+<p>Onboarding · Learning · Field support · Verification · Farm data · Services · Market linkage</p>
+</a>
+<a href="/forus-grow.html" data-part="fg">
+<small>DIGITAL &amp; ECONOMIC OPERATING LAYER</small>
+<h3>FORUS-Grow <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M3 11 11 3M4.5 3H11v6.5">
+</path>
+</svg>
+</h3>
+<p>Cooperative infrastructure · Wallets · Controlled funding · Suppliers · Settlement · Reporting</p>
+</a>
+<a href="/agri-dollar.html" data-part="ad">
+<small>PURPOSE-BOUND FUNDING</small>
+<h3>Agri-Dollar: funding with a defined purpose <svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M3 11 11 3M4.5 3H11v6.5">
+</path>
+</svg>
+</h3>
+<p>Value allocated and released against the agricultural activity it is intended to support.</p>
+</a>
+<div data-part="net" tabindex="0">
+<small>THE WIDER NETWORK</small>
+<div class="net">
+<span>WAF &amp; Country Councils</span>
+<span>The Dream</span>
+<span>Field delivery partners</span>
+<span>Providers &amp; buyers</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<section class="s bg-sand ">
+<div class="wrap">
+<div class="sh rv">
+<p class="eyebrow">What changes</p>
+<h2 class="h2">Shared strength. <em>Practical benefits.</em>
+</h2>
+</div>
+<div class="ix c2">
+<article class="ix-i rv" style="--d:0">
+<div class="ix-top">
+<span class="ix-n">01</span>
+</div>
+<h3 class="h3s">A stronger collective voice</h3>
+<p>Cooperatives can bring member demand and production together, creating a basis for better commercial terms and more dependable supply.</p>
+</article>
+<article class="ix-i rv" style="--d:1">
+<div class="ix-top">
+<span class="ix-n">02</span>
+</div>
+<h3 class="h3s">Clearer routes to support</h3>
+<p>Farmers participate through local institutions and delivery partners who understand their needs, rather than navigating a disconnected set of providers.</p>
+</article>
+<article class="ix-i rv" style="--d:2">
+<div class="ix-top">
+<span class="ix-n">03</span>
+</div>
+<h3 class="h3s">Common expectations</h3>
+<p>Provider vetting, agreed responsibilities, member protection and evidence requirements help keep delivery aligned with the farmer’s interests.</p>
+</article>
+<article class="ix-i rv" style="--d:3">
+<div class="ix-top">
+<span class="ix-n">04</span>
+</div>
+<h3 class="h3s">A repeatable approach</h3>
+<p>A defined pilot can test the relationships, workflows and economics before the model expands to another region or country.</p>
+</article>
+</div>
+</div>
+</section>
+<section class="s bg-paper ">
+<div class="wrap">
+<div class="split">
+<div class="sh rv">
+<p class="eyebrow">Building responsibly</p>
+<h2 class="h2">An ecosystem in development.</h2>
+</div>
+<div>
+<div class="prose rv">
+<p>The FORUS–WAF collaboration has been announced. Implementation priorities and country-level delivery are being developed. TerraNexus brings these efforts into a coherent agricultural model, with pilots providing a way to test it in practice.</p>
+</div>
+<div style="margin-top:32px">
+<a class="tlink" href="/pilots.html">Explore the pilot approach<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M3 11 11 3M4.5 3H11v6.5">
+</path>
+</svg>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<section class="closing" aria-labelledby="closing-title">
+<svg class="art closing-art" viewBox="0 0 600 600" fill="none" aria-hidden="true">
+<g transform="rotate(-23.44 300 300)" stroke="currentColor" stroke-opacity=".22" stroke-width="1">
+<circle cx="300" cy="300" r="290">
+</circle>
+<ellipse cx="300" cy="300" rx="160" ry="290">
+</ellipse>
+<ellipse cx="300" cy="300" rx="236" ry="290">
+</ellipse>
+<ellipse cx="300" cy="300" rx="290" ry="74">
+</ellipse>
+<ellipse cx="300" cy="300" rx="72" ry="290" stroke="currentColor">
+</ellipse>
+</g>
+</svg>
+<div class="wrap closing-grid">
+<div class="rv">
+<p class="eyebrow">A place for your contribution</p>
+<h2 id="closing-title" class="h-xl">Better connected.<br>
+<em>Stronger together.</em>
+</h2>
+</div>
+<div class="rv" style="--d:2">
+<p>Bring your cooperative, expertise or ambition. Let’s explore what we can build around it.</p>
+<a class="btn btn-ink" href="/contact.html">Start a conversation<span class="arw">
+<svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true">
+<path d="M3 11 11 3M4.5 3H11v6.5">
+</path>
+</svg>
+</span>
+</a>
+</div>
+</div>
+</section>
+`;export{n as default};

@@ -1,0 +1,125 @@
+{
+  "../content/pages/about.html?raw": {
+    "file": "assets/about-BgOSu28R.js",
+    "name": "about",
+    "src": "../content/pages/about.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/agri-dollar.html?raw": {
+    "file": "assets/agri-dollar-BgqFGINb.js",
+    "name": "agri-dollar",
+    "src": "../content/pages/agri-dollar.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/contact.html?raw": {
+    "file": "assets/contact-0xcnw9wK.js",
+    "name": "contact",
+    "src": "../content/pages/contact.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/cooperatives.html?raw": {
+    "file": "assets/cooperatives-ZXSCWnxv.js",
+    "name": "cooperatives",
+    "src": "../content/pages/cooperatives.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/ecosystem.html?raw": {
+    "file": "assets/ecosystem-Dq0rcsDw.js",
+    "name": "ecosystem",
+    "src": "../content/pages/ecosystem.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/farmerplus.html?raw": {
+    "file": "assets/farmerplus-Dv5uvfU9.js",
+    "name": "farmerplus",
+    "src": "../content/pages/farmerplus.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/forus-grow.html?raw": {
+    "file": "assets/forus-grow-BmjYGnkH.js",
+    "name": "forus-grow",
+    "src": "../content/pages/forus-grow.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/how-it-works.html?raw": {
+    "file": "assets/how-it-works-BP8hdFZS.js",
+    "name": "how-it-works",
+    "src": "../content/pages/how-it-works.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/impact.html?raw": {
+    "file": "assets/impact-DPG2780d.js",
+    "name": "impact",
+    "src": "../content/pages/impact.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/index.html?raw": {
+    "file": "assets/index-DqWPbhku.js",
+    "name": "index",
+    "src": "../content/pages/index.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/institutions.html?raw": {
+    "file": "assets/institutions-DtV762ye.js",
+    "name": "institutions",
+    "src": "../content/pages/institutions.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/overview.html?raw": {
+    "file": "assets/overview-D0ESVR4n.js",
+    "name": "overview",
+    "src": "../content/pages/overview.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/partners.html?raw": {
+    "file": "assets/partners-KoAKf-5a.js",
+    "name": "partners",
+    "src": "../content/pages/partners.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/pilots.html?raw": {
+    "file": "assets/pilots--_YiAcx7.js",
+    "name": "pilots",
+    "src": "../content/pages/pilots.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/providers.html?raw": {
+    "file": "assets/providers-Cmgj02aP.js",
+    "name": "providers",
+    "src": "../content/pages/providers.html?raw",
+    "isDynamicEntry": true
+  },
+  "../content/pages/status.html?raw": {
+    "file": "assets/status-Cp-UfG5L.js",
+    "name": "status",
+    "src": "../content/pages/status.html?raw",
+    "isDynamicEntry": true
+  },
+  "src/main.tsx": {
+    "file": "assets/main-BDqPNt0W.js",
+    "name": "main",
+    "src": "src/main.tsx",
+    "isEntry": true,
+    "dynamicImports": [
+      "../content/pages/about.html?raw",
+      "../content/pages/agri-dollar.html?raw",
+      "../content/pages/contact.html?raw",
+      "../content/pages/cooperatives.html?raw",
+      "../content/pages/ecosystem.html?raw",
+      "../content/pages/farmerplus.html?raw",
+      "../content/pages/forus-grow.html?raw",
+      "../content/pages/how-it-works.html?raw",
+      "../content/pages/impact.html?raw",
+      "../content/pages/index.html?raw",
+      "../content/pages/institutions.html?raw",
+      "../content/pages/overview.html?raw",
+      "../content/pages/partners.html?raw",
+      "../content/pages/pilots.html?raw",
+      "../content/pages/providers.html?raw",
+      "../content/pages/status.html?raw"
+    ],
+    "css": [
+      "assets/main-D-gSs3Qv.css"
+    ]
+  }
+}
